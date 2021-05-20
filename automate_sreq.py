@@ -35,10 +35,10 @@ driver.get("https://linkedin.com")
  #   pass
 driver.get("https://www.linkedin.com/login?")
 username = driver.find_element_by_id("username")
-username.send_keys("hlakhlotra@gmail.com")
+username.send_keys("Put your username/emailid here!")
 password = driver.find_element_by_id("password")
 print("signing in...")
-password.send_keys("Hl2720000")
+password.send_keys("Put your password here!")
 log_b = driver.find_element_by_xpath("//*[@type='submit']")
 log_b.click()
 
